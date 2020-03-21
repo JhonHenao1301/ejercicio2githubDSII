@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.html" rel="import" />
+    <link rel="import" href="header.html">
+    <link rel="import" href="body.html">
+    <link rel="import" href="footer.html">
+    
     <title>Merging</title>
+    
 </head>
 <body>
+    <style>
+        iframe{
+            width: 100%;
+            border: none;
+        }
+
+    </style>
+    <header>
+    <iframe class="header" src="header.html" height="360px"></iframe>
+    </header> 
     
+    <iframe class="body" src="body.html" height="520px"></iframe>
 </body>
+
+<footer>
+    <iframe footer="footer" src="footer.html" height="100px"></iframe>
+</footer>
 </html>
